@@ -1,0 +1,99 @@
+.nav_wrapper {
+    width: 100%;
+    background: rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+    padding: .2rem 0;
+    max-height: 60px;
+}
+.nav_content {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+.nav_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav_logo_image > img {
+    width: 50px;
+}
+.nav_logo_text {
+    font-family: "Prosto One", sans-serif;
+    color: #fff;
+    transition: color .5s ease;
+}
+.nav_logo_text.light {
+    color: #000;
+    transition: color .5s ease;
+}
+.gradientText {
+    font-family: "Prosto One", sans-serif;
+    background: linear-gradient(45deg, #B931F9 0%, #63B9F7 100%);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.menu_itemOne,
+.menu_itemTwo,
+.menu_itemThree,
+.menu_itemFour,
+.menu_itemFive {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    transition: color .5s ease;
+}
+.menu_itemOne.light,
+.menu_itemTwo.light,
+.menu_itemThree.light,
+.menu_itemFour.light,
+.menu_itemFive.light {
+    color: #000;
+    font-weight: 300;
+}
+
+.menu-btn {
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+.menu-btn > span {
+    color: #fff;
+}
+.menu-btn.light > span {
+    color: #000;
+}
+
+@media ( max-width: 1330px ) {
+    .nav_content {
+        max-width: 100%;
+        padding: .2rem 1rem;
+    }
+}
+@media ( max-width: 769px ) {
+    .nav_wrapper ul {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .theme {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-right: 10px;
+    }
+}
