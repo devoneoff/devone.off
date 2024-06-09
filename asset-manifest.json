@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/devone.off/static/css/main.a25dd819.css",
+    "main.js": "/devone.off/static/js/main.2556c805.js",
+    "static/js/453.cfba0afb.chunk.js": "/devone.off/static/js/453.cfba0afb.chunk.js",
+    "static/media/material-symbols-rounded.woff2": "/devone.off/static/media/material-symbols-rounded.9ae7467f3067572961a3.woff2",
+    "static/media/material-symbols-outlined.woff2": "/devone.off/static/media/material-symbols-outlined.3c74ee18fb51b389ea16.woff2",
+    "static/media/material-symbols-sharp.woff2": "/devone.off/static/media/material-symbols-sharp.528a14f5c314c4e02be4.woff2",
+    "static/media/bg.png": "/devone.off/static/media/bg.e4edee9e48aeb105cdd5.png",
+    "static/media/stage_uxuidesign.png": "/devone.off/static/media/stage_uxuidesign.68dbe5fe96b87d3be6de.png",
+    "static/media/stage_development.png": "/devone.off/static/media/stage_development.2e598dcb1e2999e892d2.png",
+    "static/media/stage_testing.png": "/devone.off/static/media/stage_testing.42d51683940ed30ead55.png",
+    "static/media/stage_production.png": "/devone.off/static/media/stage_production.e3a04c092e6f02d91a04.png",
+    "static/media/user2.png": "/devone.off/static/media/user2.8b013de4cd805f2536c0.png",
+    "static/media/devoneoff.png": "/devone.off/static/media/devoneoff.01041d7d050e4f1bc4a4.png",
+    "static/media/user1.png": "/devone.off/static/media/user1.68266b32b97efca70a20.png",
+    "static/media/favicon.png": "/devone.off/static/media/favicon.56b0b1ad18b9e2744d00.png",
+    "static/media/cursorEffect.png": "/devone.off/static/media/cursorEffect.ed49116f20e4ade60fa0.png",
+    "static/media/user3.png": "/devone.off/static/media/user3.8b991ee85414d68c2027.png",
+    "static/media/cursorPointer.png": "/devone.off/static/media/cursorPointer.d3cab90d4690bc509551.png",
+    "static/media/cursor.png": "/devone.off/static/media/cursor.9329331c2e53df0bba31.png",
+    "static/media/logo.png": "/devone.off/static/media/logo.a2ef70b16db241292fdd.png",
+    "index.html": "/devone.off/index.html",
+    "main.a25dd819.css.map": "/devone.off/static/css/main.a25dd819.css.map",
+    "main.2556c805.js.map": "/devone.off/static/js/main.2556c805.js.map",
+    "453.cfba0afb.chunk.js.map": "/devone.off/static/js/453.cfba0afb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a25dd819.css",
+    "static/js/main.2556c805.js"
+  ]
+}
