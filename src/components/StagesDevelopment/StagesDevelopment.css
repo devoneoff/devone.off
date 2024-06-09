@@ -53,6 +53,11 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 100%;
+        width: 100%;
+        gap: 20px;
+    }
+    .stagesDev-container {
+        margin: 1rem;
     }
 }
 @media ( max-width: 545px ) {

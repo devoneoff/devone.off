@@ -1,5 +1,6 @@
 import React from "react";
 import './StageDevCard.css';
+import '../../Cursor/Cursor.css';
 
 const StageDevCard = ( { title, number, image, about } ) => {
     return (
@@ -8,7 +9,7 @@ const StageDevCard = ( { title, number, image, about } ) => {
                 <div className="stagesDevCard-front_number">{ number }</div>
                 <div className="stagesDevCard-front_content">
                     <div className="stagesDevCard-front_content-image">
-                        <img src={ image } alt="" />
+                        <img src={ require( `../../../images/${image}` ) } alt="" />
                     </div>
                     <div className="stagesDevCard-front_content-title">{ title }</div>
                 </div>

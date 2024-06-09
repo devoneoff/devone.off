@@ -1,0 +1,66 @@
+.stackRound_container {
+    max-width: 210px;
+    min-width: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stackRound_title {
+    position: absolute;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: none;
+    transition: text-shadow .5s ease;
+}
+.stackRound_title1.light,
+.stackRound_title2.light,
+.stackRound_title3.light,
+.stackRound_title4.light,
+.stackRound_title5.light,
+.stackRound_title6.light {
+    color: #000;
+}
+.stackRound_container:hover .stackRound_title {
+    text-shadow: 0 0px 20px #63B9F7;
+}
+.stackRound_percentage {
+    position: absolute;
+    bottom: 10px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #63B9F7;
+}
+
+@media ( max-width: 990px ) {
+    .stackRound_title {
+        font-size: 17px;
+    }
+    .stackRound_percentage {
+        font-size: 23px;
+    }
+}
+@media ( max-width: 768px ) {
+    .stackRound_title {
+        font-size: 16px;
+    }
+}
+@media ( max-width: 540px ) {
+    .stackRound_percentage {
+        bottom: 0px;
+        font-size: 20px;
+    }
+}
+@media ( max-width: 375px ) {
+    .stackRound_title {
+        font-size: 14px;
+    }
+}
+@media ( max-width: 280px ) {
+    .stackRound_container {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

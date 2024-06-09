@@ -45,6 +45,15 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
+    .technologies_text p {
+        font-size: 22px;
+    }
+}
+@media ( max-width: 525px ) {
+    .technologies_text p {
+        font-size: 18px;
+        text-align: center;
+    }
 }
 @media ( max-width: 450px ) {
     .technologies_items {

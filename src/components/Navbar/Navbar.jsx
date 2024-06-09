@@ -17,7 +17,7 @@ const  Navbar = () => {
                 <div className="nav_content">
                     <div className="nav_logo">
                         <div className="nav_logo_image">
-                            <img src="./logo.png" alt="Logo" />
+                            <img src={require('../../images/logo.png')} alt="" />
                         </div>
                         <div className="nav_logo_text">
                             DEVONE<span className="gradientText">.OFF</span>

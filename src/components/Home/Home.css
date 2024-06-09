@@ -25,16 +25,25 @@
 .home_content {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
+    text-align: center;
+    gap: 150px;
+}
+.home_content > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .home_content_title {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-width: 600px;
     gap: 20px;
+    margin: 0 auto;
+    width: 100%;
 }
 .home_content_title h1 {
     font-size: 60px;
@@ -58,7 +67,7 @@
     gap: 60px;
     align-items: center;
     justify-content: center;
-    margin: 150px 0 50px;
+    margin: 0 0 50px;
     width: 100%;
 }
 .mouse img {
@@ -100,13 +109,17 @@
 }
 @media ( max-width: 678px ) {
     .home_content_title {
-        margin: 0 30px;
+        margin: 0;
+        padding: 0 30px;
+        max-width: 100%;
+        width: 100%;
     }
     .home_content_title h1 {
         font-size: 50px;
     }
     .home_content_title h3 {
         font-size: 14px;
+        width: 100%;
     }
     .home_content_scroll {
         gap: 40px;
@@ -117,7 +130,7 @@
 }
 @media ( max-width: 540px ) {
     .home_content_title {
-        margin: 0 30px;
+        padding: 0 20px;
     }
     .home_content_title h1 {
         font-size: 38px;
@@ -129,13 +142,10 @@
         gap: 30px;
     }
     .bg-image {
-        bottom: 70px;
+        bottom: 140px;
     }
 }
 @media ( max-width: 420px ) {
-    .home_content_title {
-        margin: 0 20px;
-    }
     .home_content_title h1 {
         font-size: 30px;
     }
@@ -146,14 +156,11 @@
         gap: 20px;
     }
     .bg-image {
-        bottom: 100px;
-    }
-    .home_content_scroll {
-        margin: 200px 0 50px;
+        bottom: 160px;
     }
 }
 @media ( max-width: 375px ) {
     .bg-image {
-        bottom: 120px;
+        bottom: 130px;
     }
 }

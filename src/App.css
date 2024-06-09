@@ -11,9 +11,16 @@
 body {
   background-color: var(--backgroundDark);
   font-family: "Poppins", sans-serif;
+  user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
 }
 body.light {
   background-color: #fff;
+}
+body.hidden {
+  overflow-y: hidden;
 }
 ::-webkit-scrollbar {
   width: 7px;

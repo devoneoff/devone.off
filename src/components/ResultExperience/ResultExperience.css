@@ -1,5 +1,5 @@
 .resultExperience-container {
-    margin: 110px 2rem 170px;
+    margin: 110px 2rem 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +37,9 @@
 .resultExperience_yellow {
     color: #FFFF80;
 }
+.resultExperience_yellow.light {
+    color: #ebeb06;
+}
 .resultExperience_pink {
     color: #FF80BF;
 }
@@ -69,6 +72,9 @@
     .resultExperience-number_item_text {
         font-size: 14px;
     }
+    .resultExperience-container {
+        margin: 110px 2rem 100px;
+    }
 }
 @media ( max-width: 630px ) {
     .resultExperience-title {
@@ -77,6 +83,7 @@
     .resultExperience-number_item {
         flex-direction: column;
         gap: 0px;
+        text-align: center;
     }
     .resultExperience-number {
         align-items: flex-start;

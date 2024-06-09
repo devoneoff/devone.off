@@ -3,14 +3,19 @@ import './Cursor.css';
 
 const Cursor = () => {
     const [cursorDotStyle, setCursorDotStyle] = useState({
-    left: 0,
-    top: 0,
+        left: 0,
+        top: 0,
     });
     const [cursorEffectStyle, setCursorEffectStyle] = useState({
-    left: 0,
-    top: 0,
+        left: 0,
+        top: 0,
     });
-    const [showEffect, setShowEffect] = useState(false);
+    const [cursorPointer, setCursorPointer] = useState({
+        left: 0,
+        top: 0,
+    });
+
+    const [showEffect, setShowEffect] = useState( false );
 
     useEffect(() => {
         const handleMouseMove = (e: MouseEvent) => {
@@ -34,15 +39,17 @@ const Cursor = () => {
                 setShowEffect(false);
             }, 100); // время видимости эффекта в миллисекундах
         };
+        
 
         window.addEventListener('mousemove', handleMouseMove);
         window.addEventListener('click', handleMouseClick);
-
+        
         return () => {
             window.removeEventListener('mousemove', handleMouseMove);
             window.removeEventListener('click', handleMouseClick);
         };
     }, []);
+
 
     return (
         <div>
@@ -51,16 +58,16 @@ const Cursor = () => {
                 style={cursorDotStyle}
                 data-cursor-dot
             >
-                <img src="./cursor.png" alt="" />
+                <img src={require("../../images/cursor.png")} alt="" />
             </div>
             {showEffect && (
-            <div
-            className={`cursor-effect ${showEffect ? 'show' : 'hide'}`}
-            style={cursorEffectStyle}
-            data-cursor-effect
-            >
-                <img src="./cursorEffect.png" alt="" />
-            </div>
+                <div
+                    className={`cursor-effect ${showEffect ? 'show' : 'hide'}`}
+                    style={cursorEffectStyle}
+                    data-cursor-effect
+                >
+                    <img src={require("../../images/cursorEffect.png")} alt="" />
+                </div>
             )}
         </div>
     );

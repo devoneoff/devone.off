@@ -49,8 +49,17 @@ const ButtonTheme = () => {
         document.querySelector('.resultExperience-title').classList.toggle("light");
         document.querySelector('.number_item_text_green').classList.toggle("light");
         document.querySelector('.number_item_text_yellow').classList.toggle("light");
+        document.querySelector('.resultExperience_yellow').classList.toggle("light");
         document.querySelector('.number_item_text_pink').classList.toggle("light");
-        
+        // styles page Stacks
+        document.querySelector('.stackRound_title1').classList.toggle("light");
+        document.querySelector('.stackRound_title2').classList.toggle("light");
+        document.querySelector('.stackRound_title3').classList.toggle("light");
+        document.querySelector('.stackRound_title4').classList.toggle("light");
+        document.querySelector('.stackRound_title5').classList.toggle("light");
+        document.querySelector('.stackRound_title6').classList.toggle("light");
+        // styles page Glitch
+        document.querySelector('.glitch').classList.toggle("light");
         // styles page Stages
         document.querySelector('.stagesDev_title_itemOne').classList.toggle("light");
         document.querySelector('.stagesDev_title_itemTwo').classList.toggle("light");

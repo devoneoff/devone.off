@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #191840;
+    background-color: transparent;
 }
 .glitch {
     position: relative;
@@ -23,6 +23,9 @@
     color: #fff;
     letter-spacing: 5px;
     z-index: 1;
+}
+.glitch.light {
+    color: #191840;
 }
 .glitch:before,
 .glitch:after {
@@ -61,5 +64,27 @@
     }
     to {
         transform: translate(0);
+    }
+}
+
+@media ( max-width: 1100px ) {
+    /* .glitch-container {
+        margin-bottom: 100px;
+    } */
+    .glitch {
+        font-size: 50px;
+    }
+}
+@media ( max-width: 678px ) {
+    .glitch-container {
+        margin-bottom: 100px;
+    }
+    .glitch {
+        font-size: 45px;
+    }
+}
+@media ( max-width: 450px ) {
+    .glitch {
+        font-size: 30px;
     }
 }

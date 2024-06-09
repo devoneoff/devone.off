@@ -1,8 +1,10 @@
 import './App.css';
 import About from './components/About/About';
 import Cursor from './components/Cursor/Cursor';
+import Footer from './components/Footer/Footer';
 import Glitch from './components/Glitch/Glitch';
 import Home from './components/Home/Home';
+import MobileFooter from './components/MobileFooter/MobileFooter';
 import Navbar from './components/Navbar/Navbar';
 import ResultExperience from './components/ResultExperience/ResultExperience';
 import Stack from './components/Stack/Stack';
@@ -23,6 +25,8 @@ const App = () => {
           <Glitch />
           <StagesDevelopment />
       </div>
+      <Footer />
+      <MobileFooter />
     </>
   );
 }

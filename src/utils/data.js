@@ -1,102 +1,155 @@
 export const TECHNOLOGIES = [
     {
         title: "Bootstrap",
-        image: "./assets/images/bootstrap.png",
+        image: "bootstrap.png",
     },
     {
         title: "WordPress",
-        image: "./assets/images/wordpress.png",
+        image: "wordpress.png",
     },
     {
         title: "React",
-        image: "./assets/images/react.png",
+        image: "react.png",
     },
     {
         title: "Tailwind",
-        image: "./assets/images/tailwind.png",
+        image: "tailwind.png",
     },
     {
         title: "npm",
-        image: "./assets/images/npm.png",
+        image: "npm.png",
     },
     {
         title: "Drupal",
-        image: "./assets/images/drupal.png",
+        image: "drupal.png",
     },
     {
         title: "Vite",
-        image: "./assets/images/vite.png",
+        image: "vite.png",
     },
     {
         title: "Angular",
-        image: "./assets/images/angular.png",
+        image: "angular.png",
     },
     {
         title: "Git",
-        image: "./assets/images/git.png",
+        image: "git.png",
     },
     {
         title: "MySQL",
-        image: "./assets/images/mysql.png",
+        image: "mysql.png",
     },
     {
         title: "Figma",
-        image: "./assets/images/figma.png",
+        image: "figma.png",
     },
     {
         title: "Firebase",
-        image: "./assets/images/firebase.png",
+        image: "firebase.png",
     },
     {
         title: "Shopify",
-        image: "./assets/images/shopify.png",
+        image: "shopify.png",
     },
     {
         title: "Vue",
-        image: "./assets/images/vue.png",
+        image: "vue.png",
     },
     {
         title: "Cypress",
-        image: "./assets/images/cypress.png",
+        image: "cypress.png",
     },
     {
         title: "Modx",
-        image: "./assets/images/modx.png",
+        image: "modx.png",
     },
     {
         title: "MongoDB",
-        image: "./assets/images/mongoDB.png",
+        image: "mongoDB.png",
     },
     {
         title: "Typescript",
-        image: "./assets/images/typescript.png",
+        image: "typescript.png",
     },
 ];
 
 export const STACKS = [
     {
         title: "UX/UI Design",
-        procent: "48%",
+        percent: 48,
+        num: '1',
+        stacks: [
+            {stack: 'Figma', percentStack: 68},
+            {stack: 'Pixso', percentStack: 68},
+            {stack: 'Adobe XD', percentStack: 0},
+            {stack: 'Sketch', percentStack: 0},
+            {stack: 'UI Kit', percentStack: 0},
+            {stack: 'Adobe Photoshop', percentStack: 17},
+        ]
     },
     {
         title: "Web",
-        procent: "43%",
+        percent: 43,
+        num: '2',
+        stacks: [
+            {stack: 'HTML, CSS, JS', percentStack: 62},
+            {stack: 'React', percentStack: 34},
+            {stack: 'Angular', percentStack: 12},
+            {stack: 'Vue.js', percentStack: 7},
+            {stack: 'PHP, MySQL', percentStack: 53},
+            {stack: 'Python', percentStack: 35},
+        ]
     },
     {
         title: "Mobile",
-        procent: "5%",
+        percent: 5,
+        num: '3',
+        stacks: [
+            {stack: 'React Native', percentStack: 10},
+            {stack: 'Java', percentStack: 0},
+            {stack: 'C++', percentStack: 1},
+            {stack: 'Python', percentStack: 7},
+            {stack: 'Flutter + Dart', percentStack: 3},
+            {stack: 'Firebase', percentStack: 3},
+        ]
     },
     {
         title: "3D",
-        procent: "40%",
-    },
-    {
-        title: "Photography",
-        procent: "27%",
+        percent: 40,
+        num: '4',
+        stacks: [
+            {stack: '3Ds Max', percentStack: 43},
+            {stack: 'Blender', percentStack: 14},
+            {stack: 'Corona Render', percentStack: 65},
+            {stack: '3D Hamster', percentStack: 70},
+            {stack: 'Adobe Photoshop', percentStack: 17},
+        ]
     },
     {
         title: "Graphics",
-        procent: "36%",
+        percent: 36,
+        num: '5',
+        stacks: [
+            {stack: 'Figma', percentStack: 68},
+            {stack: 'Adobe Photoshop', percentStack: 17},
+            {stack: 'Adobe Illustrator', percentStack: 0},
+            {stack: 'Canva', percentStack: 0},
+            {stack: 'Indesign', percentStack: 0},
+            {stack: 'Corel Draw', percentStack: 0},
+        ]
+    },
+    {
+        title: "Tools",
+        percent: 36,
+        num: '6',
+        stacks: [
+            {stack: 'VS Code', percentStack: 89},
+            {stack: 'Git & GitHub', percentStack: 56},
+            {stack: 'OS Windows', percentStack: 93},
+            {stack: 'OS Linux', percentStack: 43},
+            {stack: 'Terminal', percentStack: 34},
+            {stack: 'Microsoft Office', percentStack: 34},
+        ]
     },
 ];
 
@@ -104,25 +157,25 @@ export const STAGES = [
     {
         title: 'ux/ui design',
         number: '1',
-        image: './assets/images/stage_uxuidesign.png',
+        image: 'stage_uxuidesign.png',
         about: 'Development of a modern interactive and stylish design layout according to your preferences',
     },
     {
         title: 'development',
         number: '2',
-        image: './assets/images/stage_development.png',
+        image: 'stage_development.png',
         about: 'Development of web applications based on modern concepts and development methodology',
     },
     {
         title: 'testing',
         number: '3',
-        image: './assets/images/stage_testing.png',
+        image: 'stage_testing.png',
         about: 'Testing at every stage of development. Identification of errors and shortcomings, as well as their timely correction',
     },
     {
         title: 'production',
         number: '4',
-        image: './assets/images/stage_production.png',
+        image: 'stage_production.png',
         about: 'Build the project and upload it to the hosting. If necessary, domain registration and hosting registration',
     },
 ]

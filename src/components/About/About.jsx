@@ -13,7 +13,7 @@ const About = () => {
                     <p className="hello"><span>Hello, I am</span></p>
                     <p className="my_name">Irina Krylova</p>
                     <div className="about_image">
-                        <img src="./assets/images/devoneoff.png" alt="" />
+                        <img src={ require( '../../images/devoneoff.png' ) } alt="" />
                     </div>
                 </div>
                 <div className="about_table">
